@@ -13,7 +13,7 @@ pip3 install selenium
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Setting up crontab (for MAC)
+## Setting up crontab (for MAC/linux)
 * * * * *  command to execute
 │ │ │ │ │
 │ │ │ │ └─── day of week (0 - 6) (0 to 6 are Sunday to Saturday, or use names; 7 is Sunday, the same as 0)
