@@ -6,8 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 url = 'https://www.asu.edu/healthcheck/'
 headers = {'User-Agent': 'Mozilla/5.0'}
 
-account = 'your ASU account'
-password = 'your ASU password'
+account = 'slin97'
+password = 'Letmefindajob2020'
 
 wb = '/Users/michael/Desktop/Projects/automation/chromedriver'
 driver = webdriver.Chrome(wb)
@@ -49,4 +49,5 @@ try:
 
 
 finally:
+    driver.close()
     print('Done!')
